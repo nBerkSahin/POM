@@ -27,6 +27,8 @@ public class C01_Pages extends TestBase {
         driver.get("https://www.amazon.com");
         Amazon amazon = new Amazon(driver);
         amazon.aramakutusu.sendKeys("Nutella"+Keys.ENTER);
+        System.out.println(amazon.sonucyazisiElemnti.getText());
+        Assert.assertTrue(amazon.sonucyazisiElemnti.getText().contains("Nutella"));
 
     }
 
