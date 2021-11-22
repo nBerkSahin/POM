@@ -24,6 +24,8 @@ public class ConcortHptelPage {
     @FindBy(id="UserName")
     public WebElement username;
 
+    @FindBy(id="btnSubmit")
+    public WebElement buttonSubmit;
 
 
 }
