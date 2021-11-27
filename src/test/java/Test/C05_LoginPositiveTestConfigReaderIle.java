@@ -16,6 +16,8 @@ public class C05_LoginPositiveTestConfigReaderIle extends TestBase {
 
 @Test
 public void test(){
+
+
     //    URL="https://www.concorthotel.com/ adresine git
     driver.get(ConfigReader.getProperty("URL"));
 
