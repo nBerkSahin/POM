@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="class calistirma">
+    <test name="farkli class calistirma">
+        <classes>
+            <class name="Test.C01_Pages"></class>
+            <class name="Test.C02_PagesFacebook"></class>
+        </classes>
+    </test>
+</suite>
